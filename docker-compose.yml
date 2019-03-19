@@ -3,16 +3,20 @@ version: '3.3'
 
 services:
 
-  frontend:
-    build: ./frontend
-    restart: always
+  #frontend:
+  #  build: ./frontend
+  #  restart: always
+  #  ports:
+  #  - "8080:80"
 
-  backend:
-    build: ./backend
+  #backend:
+  #  build: ./backend
 
   db:
     build: ./db
     restart: always
+    volumes: 
+      - "./dbdir:/var/lib/mysql"
     environment:
         MYSQL_ROOT_PASSWORD: root
 
