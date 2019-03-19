@@ -1,0 +1,23 @@
+
+version: '3.3'
+
+services:
+
+  frontend:
+    build: ./frontend
+    restart: always
+
+  backend:
+    build: ./backend
+
+  db:
+    build: ./db
+    restart: always
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+
+  db-editor:
+    build: ./db-editor
+    restart: always
+    ports: 
+      - "6080:8080"
