@@ -1,4 +1,5 @@
- <?php echo '<p>Hello World!</p>'; 
-	
+ <?php
+		phpinfo();
+		//echo '<p>Hello World!</p>'; 
  ?>
  

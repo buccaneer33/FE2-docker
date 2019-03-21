@@ -13,8 +13,8 @@ RUN apt-get update && apt-get install -y git
 RUN npm install webpack -g
 
 #clone app from github
-RUN mkdir app 
-#VOLUME /app
+RUN mkdir app
+
 RUN git clone https://github.com/buccaneer33/landing_01.git -b devel /app
 
 #install npm pacages & build
@@ -23,8 +23,10 @@ RUN cd /app/code && npm install && npm run build
 # Create app directory
 WORKDIR /app/code/dist
 
-RUN mkdir /app/code/change 
-RUN cp -r /app/code/dist /app/code/change
+#RUN mkdir /app/code/change 
+#RUN cp -r /app/code/dist /app/code/change
+
+#VOLUME /app/code
 
 # Expose port
 EXPOSE 8080
