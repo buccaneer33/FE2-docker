@@ -1,0 +1,10 @@
+http {
+    server {
+		location / {
+			root /app/code/dist;
+		}
+	}
+}
+events {
+    worker_connections 2048;
+}
