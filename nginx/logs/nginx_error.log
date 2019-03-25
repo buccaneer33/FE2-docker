@@ -1,0 +1,8 @@
+2019/03/25 01:30:26 [error] 7#7: *1 open() "/var/www/index,php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index,php HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:30:31 [error] 7#7: *1 open() "/var/www/index,php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index,php HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:30:32 [error] 7#7: *1 open() "/var/www/index,php" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /index,php HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:40:41 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:40:42 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:40:43 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:40:45 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 01:40:50 [error] 7#7: *1 directory index of "/var/www/" is forbidden, client: 172.20.0.1, server: localhost, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"

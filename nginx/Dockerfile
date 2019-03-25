@@ -1,5 +1,5 @@
 FROM nginx
-COPY ./config/conf.conf /etc/nginx/conf.d
+#COPY /config/nginx.conf /etc/nginx/
 
 #Install node.js
 #RUN apt-get update && apt-get -y upgrade && apt-get install curl -y
@@ -22,12 +22,14 @@ COPY ./config/conf.conf /etc/nginx/conf.d
 
 # Create app directory
 #WORKDIR /app/code/dist
-WORKDIR /var/www
+
+#COPY /www /var/www/html
+WORKDIR /var/www/html
 
 #RUN mkdir /app/code/change 
 #RUN cp -r /app/code/dist /app/code/change
 
-#VOLUME /app/code/
+#VOLUME ["/var/www/html", "/etc/nginx/", "/var/log/nginx"]
 
 # Expose port
-#EXPOSE ${NGINX_PORT}
+EXPOSE ${WEB_PORT}

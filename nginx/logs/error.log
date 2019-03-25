@@ -133,3 +133,847 @@
 2019/03/22 14:25:15 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
 2019/03/22 14:25:19 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
 2019/03/22 14:25:26 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:00:50 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:00:57 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:03 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:08 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:15 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:21 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:28 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:39 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:01:56 [emerg] 1#1: directive "root" is not terminated by ";" in /etc/nginx/conf.d/conf.conf:8
+2019/03/23 15:04:07 [error] 7#7: *1 "/var/www/example_dom.edu/index.php" is not found (2: No such file or directory), client: 172.20.0.1, server: example_dom.edu, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/23 15:04:07 [error] 7#7: *1 open() "/var/www/example_dom.edu/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: example_dom.edu, request: "GET /favicon.ico HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/23 15:06:05 [error] 7#7: *2 open() "/var/www/example_dom.edu/index.html" failed (2: No such file or directory), client: 172.20.0.1, server: example_dom.edu, request: "GET /index.html HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/23 15:06:14 [error] 7#7: *2 "/var/www/example_dom.edu/index.php" is not found (2: No such file or directory), client: 172.20.0.1, server: example_dom.edu, request: "GET / HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/23 15:22:22 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:29 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:35 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:40 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:46 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:52 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:22:59 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:23:09 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:23:26 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:24:01 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:24:57 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:26:01 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:27:05 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:28:10 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:29:13 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:30:18 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:31:22 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:32:26 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:33:29 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:34:33 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:35:37 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:36:40 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:37:44 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:38:48 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:39:52 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:40:56 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:42:01 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:43:05 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:43:44 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:43:49 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:43:56 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:44:02 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:44:08 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:44:14 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:44:22 [emerg] 1#1: open() "/etc/nginx/nginx.conf" failed (2: No such file or directory)
+2019/03/23 15:44:33 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:11 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:17 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:23 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:28 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:35 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:41 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:48 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:45:59 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:46:16 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:46:45 [emerg] 1#1: open() "/etc/nginx/mime.types" failed (2: No such file or directory) in /etc/nginx/nginx.conf:8
+2019/03/23 15:47:33 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:47:43 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:47:50 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:47:56 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:48:02 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:48:08 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:48:15 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:48:26 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:24
+2019/03/23 15:48:43 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:50:31 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:50:41 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:50:52 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:51:03 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:51:16 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 15:51:26 [emerg] 1#1: host not found in upstream "php" in /etc/nginx/nginx.conf:22
+2019/03/23 17:04:41 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:04:43 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:04:56 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:05:13 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:05:18 [error] 7#7: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:07:27 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:07:29 [error] 6#6: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 172.20.0.1, server: localhost, request: "GET /index.php HTTP/1.1", upstream: "fastcgi://172.20.0.4:443", host: "example_dom.edu:8080"
+2019/03/23 17:14:06 [emerg] 1#1: unknown directive "api.location" in /etc/nginx/nginx.conf:27
+2019/03/23 17:14:17 [emerg] 1#1: unknown directive "api.location" in /etc/nginx/nginx.conf:27
+2019/03/23 17:14:32 [emerg] 1#1: unknown directive "api.location" in /etc/nginx/nginx.conf:27
+2019/03/24 06:57:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:58:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:58:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:58:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:58:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:58:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:59:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 06:59:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:00:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:01:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:02:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:03:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:05:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:06:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:07:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:08:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:09:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:10:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:11:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:13:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:14:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:15:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:16:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:17:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:18:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:19:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:20:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:21:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:23:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:24:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:25:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:26:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:27:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:28:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:29:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:30:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:32:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:33:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:34:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:35:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:36:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:37:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:38:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:39:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:41:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:42:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:43:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:44:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:45:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:46:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:47:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:48:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:50:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:51:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:52:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:53:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:54:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:55:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:56:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:57:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:58:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 07:59:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:00:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:01:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:02:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:03:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:05:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:06:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:07:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:08:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:09:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:10:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:11:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:12:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:13:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:14:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:15:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:16:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:17:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:18:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:19:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:20:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:22:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:23:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:24:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:25:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:26:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:27:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:28:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:29:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:30:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:31:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:32:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:33:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:34:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:35:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:36:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:37:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:39:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:40:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:41:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:42:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:43:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:44:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:45:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:46:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:47:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:48:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:49:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:50:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:51:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:52:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:53:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:54:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:55:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:57:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:58:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 08:59:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:00:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:01:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:02:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:03:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:04:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:05:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:06:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:07:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:08:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:09:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:10:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:11:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:12:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:13:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:15:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:16:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:17:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:18:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:19:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:20:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:21:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:22:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:23:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:24:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:25:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:26:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:27:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:28:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:29:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:31:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:32:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:33:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:34:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:35:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:36:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:37:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:38:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:39:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:40:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:41:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:42:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:43:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:44:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:45:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:46:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:47:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:49:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:50:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:51:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:52:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:53:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:54:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:55:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:56:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:57:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:58:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 09:59:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:00:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:01:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:02:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:03:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:04:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:06:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:07:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:08:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:09:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:10:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:11:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:12:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:13:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:14:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:15:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:16:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:17:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:18:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:19:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:20:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:21:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:22:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:24:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:25:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:26:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:27:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:28:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:29:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:30:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:31:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:32:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:33:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:34:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:35:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:36:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:37:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:38:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:39:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:41:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:42:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:43:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:44:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:45:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:46:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:47:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:48:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:49:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:50:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:51:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:52:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:53:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:54:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:55:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:56:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:58:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 10:59:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:00:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:01:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:02:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:03:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:04:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:05:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:06:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:07:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:08:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:09:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:10:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:11:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:12:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:13:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:14:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:16:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:17:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:18:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:19:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:20:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:21:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:22:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:23:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:24:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:26:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:27:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:28:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:29:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:30:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:31:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:32:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:33:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:35:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:36:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:37:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:38:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:39:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:40:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:41:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:42:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:44:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:45:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:46:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:47:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:48:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:49:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:50:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:51:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:52:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:53:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:54:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:56:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:57:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:58:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 11:59:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:00:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:01:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:02:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:04:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:05:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:06:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:07:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:08:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:09:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:10:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:11:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:13:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:14:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:15:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:16:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:17:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:18:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:19:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:20:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:22:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:23:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:24:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:25:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:26:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:27:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:28:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:29:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:30:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:31:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:32:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:33:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:34:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:36:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:37:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:38:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:39:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:40:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:41:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:42:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:43:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:44:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:45:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:46:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:47:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:48:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:49:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:50:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:51:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:52:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:54:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:55:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:56:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:57:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:58:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 12:59:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:00:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:01:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:02:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:03:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:04:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:05:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:06:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:07:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:08:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:09:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:10:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:11:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:13:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:14:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:15:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:16:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:17:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:18:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:19:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:20:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:21:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:23:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:24:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:25:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:26:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:27:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:28:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:29:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:30:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:31:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:33:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:34:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:35:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:36:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:37:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:38:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:39:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:40:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:41:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:43:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:44:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:45:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:46:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:47:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:48:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:49:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:50:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:51:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:52:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:53:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:55:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:56:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:57:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:58:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 13:59:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:00:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:01:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:02:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:03:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:04:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:05:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:06:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:07:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:08:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:10:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:11:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:12:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:13:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:14:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:15:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:16:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:17:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:18:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:19:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:20:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:21:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:22:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:23:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:24:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:26:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:27:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:28:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:29:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:30:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:31:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:32:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:33:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:34:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:35:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:36:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:37:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:39:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:40:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:41:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:42:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:43:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:44:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:45:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:46:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:47:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:48:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:49:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:50:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:51:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:53:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:54:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:54:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:54:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:54:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:54:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:55:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:55:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:55:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:55:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:56:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:57:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:58:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 14:59:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:00:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:01:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:02:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:03:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:04:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:05:38 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:06:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:07:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:08:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:09:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:10:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:12:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:13:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:14:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:15:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:16:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:17:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:18:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:19:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:20:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:21:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:22:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:23:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:24:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:26:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:27:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:28:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:29:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:30:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:31:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:32:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:33:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:34:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:35:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:36:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:37:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:38:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:40:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:41:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:42:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:43:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:44:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:45:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:46:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:47:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:48:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:49:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:50:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:51:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:53:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:54:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:55:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:56:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:57:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:58:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 15:59:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:00:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:01:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:02:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:04:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:05:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:06:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:07:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:08:28 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:09:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:10:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:11:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:12:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:13:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:15:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:16:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:17:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:18:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:19:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:20:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:21:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:22:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:23:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:24:47 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:25:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:26:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:28:02 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:29:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:30:13 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:31:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:32:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:33:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:34:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:35:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:36:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:37:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:38:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:40:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:41:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:42:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:43:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:44:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:45:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:46:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:47:39 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:48:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:49:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:50:54 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:52:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:53:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:54:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:55:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:56:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:57:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:58:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 16:59:35 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:00:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:01:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:02:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:03:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:04:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:05:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:07:03 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:08:06 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:09:11 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:10:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:11:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:12:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:13:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:14:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:15:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:16:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:17:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:18:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:19:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:21:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:22:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:23:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:24:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:25:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:26:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:27:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:28:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:29:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:30:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:31:55 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:32:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:34:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:35:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:36:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:37:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:38:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:39:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:40:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:41:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:42:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:43:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:44:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:45:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:46:56 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:48:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:49:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:50:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:51:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:52:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:53:20 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:54:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:55:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:56:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:57:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:58:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 17:59:45 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:00:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:02:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:03:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:04:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:05:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:06:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:07:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:08:50 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:09:58 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:11:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:12:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:13:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:14:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:15:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:16:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:17:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:18:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:20:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:21:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:22:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:23:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:24:46 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:25:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:26:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:28:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:29:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:30:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:31:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:32:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:33:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:34:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:35:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:37:08 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:38:16 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:39:24 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:40:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:41:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:42:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:43:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:45:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:46:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:47:17 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:48:26 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:49:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:50:41 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:51:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:52:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:54:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:55:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:56:21 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:57:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:58:36 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 18:59:43 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:00:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:01:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:02:59 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:04:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:05:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:06:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:07:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:08:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:09:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:10:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:12:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 19:13:09 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:30:07 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:31:12 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:32:15 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:33:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:34:22 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:35:25 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:36:30 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:37:34 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:38:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:39:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:40:49 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:41:53 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:42:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:44:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:45:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:46:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:47:27 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:48:31 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:49:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:51:04 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:52:19 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:53:29 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:54:33 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:55:37 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:56:40 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:57:44 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:58:48 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/24 23:59:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:00:57 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:02:01 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:03:05 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:04:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:05:14 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:06:18 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:07:23 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:08:32 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:09:42 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:10:51 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:12:00 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:13:10 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:14:52 [emerg] 1#1: host not found in upstream "backend" in /etc/nginx/nginx.conf:22
+2019/03/25 00:16:40 [error] 6#6: *1 open() "/var/www/favicon.ico" failed (2: No such file or directory), client: 172.20.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "example_dom.edu:8080"
+2019/03/25 00:33:45 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 00:33:51 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 00:33:58 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 00:34:04 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 00:34:10 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 00:34:17 [emerg] 1#1: open() "/etc/nginx/fastcgi_params" failed (2: No such file or directory) in /etc/nginx/nginx.conf:34
+2019/03/25 01:03:06 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:14 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:21 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:29 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:39 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:48 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:03:57 [emerg] 1#1: no "events" section in configuration
+2019/03/25 01:21:00 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:07 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:13 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:19 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:25 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:31 [emerg] 1#1: unknown directive "location/api/" in /etc/nginx/nginx.conf:21
+2019/03/25 01:21:39 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:22:42 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:22:49 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:22:55 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:23:02 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:23:09 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:23:15 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22
+2019/03/25 01:23:22 [emerg] 1#1: invalid URL prefix in /etc/nginx/nginx.conf:22

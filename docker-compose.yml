@@ -7,41 +7,45 @@ services:
     build: ./nginx
     restart: always
     volumes:
-     - ./www/front:/var/www
-#     - ./nginx/config:/etc/nginx
+     - ./nginx/www:/var/www/html
+     - ./nginx/config:/etc/nginx/conf.d/nginx.conf
      - ./nginx/logs:/var/log/nginx
 
     ports:
      - "8080:80"
      - "443:443"
-    links:
-     - backend
-     
-  backend:
-    build: ./backend
+#    links:
+#     - backend
+#    depends_on:
+#      - backend
+#     
+#  backend:
+#    build: ./backend
 #    volumes:
 #      - ./www/back:/var/www
-    links:
-      - db
+#    links:
+#      - db
+#    depends_on:
+#      - db
 
-  db:
-    build: ./db
-    restart: always
-    volumes: 
-    #затирает текущую папку
-    #  - ./db/data-volume:/var/lib/mysql
-      - ./www/db/db.sql:/docker-entrypoint-initdb.d/init.sql
-    #  - ./db/conf:/etc/mysql/conf.d
-    environment:
-        MYSQL_ROOT_PASSWORD: root
-        MYSQL_DATABASE: test
-    ports: 
-      - "3306:3306"
-
-  db-editor:
-    build: ./db-editor
-    restart: always
-    ports: 
-      - "6080:8080"
+#  db:
+#    build: ./db
+#    restart: always
+#    command: --innodb_use_native_aio=0
+#    volumes: 
+#     - ./www/db/db.sql:/docker-entrypoint-initdb.d/init.sql
+#    environment:
+#        MYSQL_ROOT_PASSWORD: root
+#        MYSQL_DATABASE: test
+#    ports: 
+#      - "3306:3306"
+#
+#  db-editor:
+#    build: ./db-editor
+#    restart: always
+#    ports: 
+#      - "6080:8080"
+#    depends_on:
+#      - db
 
   
