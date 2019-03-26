@@ -5,26 +5,27 @@ services:
 
   nginx:
     build: ./nginx
-    restart: always
     volumes:
-     - ./nginx/www:/var/www/html
-     - ./nginx/config:/etc/nginx/conf.d/nginx.conf
-     - ./nginx/logs:/var/log/nginx
+     - ./nginx/www:/usr/share/nginx/html
+     - ./nginx/config:/usr/local/nginx/conf
 
     ports:
      - "8080:80"
      - "443:443"
-#    links:
-#     - backend
-#    depends_on:
-#      - backend
-#     
-#  backend:
-#    build: ./backend
-#    volumes:
-#      - ./www/back:/var/www
+    links:
+     - backend
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend/www:/var/www/html
+    ports:
+      - "8100:80"
 #    links:
 #      - db
+#    - nginx
 #    depends_on:
 #      - db
 
