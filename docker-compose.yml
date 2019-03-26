@@ -20,33 +20,35 @@ services:
   backend:
     build: ./backend
     volumes:
-      - ./backend/www:/var/www/html
+      - ./backend/www:/var/www/html/web
+      - ./backend/conf/default.conf:/etc/apache2/sites-available/000-default.conf
+      - ./backend/conf/apache.conf:/etc/apache2/apache2.conf
+
     ports:
       - "8100:80"
-#    links:
-#      - db
-#    - nginx
-#    depends_on:
-#      - db
+    links:
+      - db
+    depends_on:
+      - db
 
-#  db:
-#    build: ./db
-#    restart: always
-#    command: --innodb_use_native_aio=0
-#    volumes: 
-#     - ./www/db/db.sql:/docker-entrypoint-initdb.d/init.sql
-#    environment:
-#        MYSQL_ROOT_PASSWORD: root
-#        MYSQL_DATABASE: test
-#    ports: 
-#      - "3306:3306"
-#
-#  db-editor:
-#    build: ./db-editor
-#    restart: always
-#    ports: 
-#      - "6080:8080"
-#    depends_on:
-#      - db
+  db:
+    build: ./db
+    restart: always
+    command: --innodb_use_native_aio=0
+    volumes: 
+     - ./www/db/db.sql:/docker-entrypoint-initdb.d/init.sql
+    environment:
+        MYSQL_ROOT_PASSWORD: root
+        MYSQL_DATABASE: test
+    ports: 
+      - "3306:3306"
 
-  
+  db-editor:
+    build: ./db-editor
+    restart: always
+    ports: 
+      - "6080:8080"
+    depends_on:
+      - db
+    links:
+      - db
