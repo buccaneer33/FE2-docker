@@ -1,0 +1,1 @@
+cd /repo/scripts; ls *.sh | xargs -n 1 -I{} -P666 sh {}
