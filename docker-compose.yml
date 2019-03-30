@@ -1,4 +1,3 @@
-
 version: '3.1'
 
 services:
@@ -16,7 +15,7 @@ services:
      - backend
     depends_on:
       - backend
-      - npm-repo
+      - builder
 
   backend:
     build: 
@@ -32,7 +31,7 @@ services:
     links:
       - db
     depends_on:
-      - npm-repo
+      - builder
       - db
 
   db:
@@ -47,7 +46,7 @@ services:
     ports: 
       - "${DB_BASE_PORT}:3306"
     depends_on:
-      - npm-repo
+      - builder
 
   db-editor:
     build: ./db-editor
@@ -56,22 +55,32 @@ services:
       - "${DB_EDITOR_PORT}:8080"
     depends_on:
       - db
-      - npm-repo
+      - builder
     links:
       - db
 
   npm-repo:
+    build: ./npm-repo
+    restart: always
+#    volumes:
+#      - ./npm-repo/storages/npm:/var/storages/npm
+    ports: 
+    - "4873:4873"
+#    links:
+#      - builder
+
+  builder:
     build: 
       context: ./
-      dockerfile: ./npm-repo/Dockerfile
+      dockerfile: ./builder/Dockerfile
     ports:
      - "8200:80"
-#     - "80:80"
-#     - "443:443"
     volumes:
-#     - ./npm-repo/www:/usr/share/nginx/html
       - asset-volume1:/repo/front/code/dist/
       - asset-volume2:/repo/back
+#    depends_on:
+#      - npm-repo
+
 volumes:
   asset-volume1:
   asset-volume2:
