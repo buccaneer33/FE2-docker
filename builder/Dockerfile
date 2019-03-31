@@ -3,7 +3,7 @@ FROM nginx
 RUN apt-get update && apt-get install sudo
 RUN apt-get update && apt-get -y upgrade && apt-get install curl -y && curl -sL https://deb.nodesource.com/setup_8.x | bash && apt-get install nodejs -y
 RUN apt-get update && apt-get install -y git && npm install webpack -g
-RUN npm set registry http://127.0.0.1:4873/
+RUN npm set registry http://127.0.0.1:4873
 
 RUN mkdir /repo && mkdir /repo/front && mkdir /repo/back && mkdir /repo/db
 COPY /runtime /repo

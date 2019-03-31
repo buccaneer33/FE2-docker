@@ -59,13 +59,13 @@ services:
     links:
       - db
 
-  npm-repo:
-    build: ./npm-repo
-    restart: always
+#  npm-repo:
+#    build: ./npm-repo
+#    restart: always
 #    volumes:
 #      - ./npm-repo/storages/npm:/var/storages/npm
-    ports: 
-    - "4873:4873"
+ #   ports: 
+#    - "4873:4873"
 #    links:
 #      - builder
 
