@@ -1,1 +1,1 @@
-cd /repo/back git clone https://github.com/buccaneer33/FE2-docker-back.git .
+git clone $3 $1/back

@@ -20,6 +20,8 @@ services:
   backend:
     build: 
       context: ./
+      args:
+        - REPO_SHELL=${REPO_SHELL}
       dockerfile: ./backend/Dockerfile
     volumes:
 #      - ./backend/www:/var/www/html/web
@@ -72,15 +74,43 @@ services:
   builder:
     build: 
       context: ./
+      args:
+        - REPO_SHELL=${REPO_SHELL}
+        - REPO_SCRIPTS_FOLDER=${REPO_SCRIPTS_FOLDER}
+        - FRONT_GIT_REPO=${FRONT_GIT_REPO}
+        - BACK_GIT_REPO=${BACK_GIT_REPO}
+
       dockerfile: ./builder/Dockerfile
     ports:
      - "8200:80"
+#     - "4873:4873"
     volumes:
       - asset-volume1:/repo/front/code/dist/
       - asset-volume2:/repo/back
 #    depends_on:
 #      - npm-repo
+#    networks:
+#      app_net:
+#        ipv4_address: 127.0.0.1:4873
+#        ipv6_address: 2001:3984:3989::10
+    env_file: .env
+
+
+
+
 
 volumes:
   asset-volume1:
   asset-volume2:
+
+#networks:
+#  app_net:
+#    driver: bridge
+#    enable_ipv6: true
+#    ipam:
+#      driver: default
+#      config:
+#      -
+#        subnet: 127.0.0.1:24
+#      -
+#        subnet: 2001:3984:3989::/64

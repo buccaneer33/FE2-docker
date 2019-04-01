@@ -1,2 +1,1 @@
-#!/bin/bash
-cd /repo/front && git clone https://github.com/buccaneer33/landing_01.git -b devel . && echo * && cd /repo/front/code && npm install && npm run build
+git clone $2 -b devel $1/front && cd $1/front/code && npm install && npm run build
