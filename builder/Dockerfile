@@ -14,9 +14,3 @@ RUN mkdir $REPO_SHELL
 COPY /runtime $REPO_SHELL
 COPY /builder/scripts $REPO_SHELL/scripts
 RUN sudo sh $REPO_SHELL/runtime.sh $REPO_SHELL $FRONT_GIT_REPO $BACK_GIT_REPO
-
-#
-
-#RUN mkdir app 
-#RUN git clone https://github.com/buccaneer33/landing_01.git -b devel /app 
-#RUN cd /app/code && npm install && npm run build
